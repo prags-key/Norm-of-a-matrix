@@ -22,7 +22,7 @@ Program-3
 ```
 1.Get the input matrix using np.array()
 2.Find the infinity-norm of the matrix using np.linalg.norm()
-3.Print the norm of the matrix in two decimal places.
+3.Print the round off value for the norm of the matrix.
 ```
 
 ## Program:
@@ -53,8 +53,7 @@ print(norm_of_matrix)
 import numpy as np
 matrix=np.array(eval(input()))
 ans=np.linalg.norm(matrix,2)
-norm_of_matrix="{:.2f}".format(ans)
-print(norm_of_matrix)
+print(round(ans))
 
 
 ```
