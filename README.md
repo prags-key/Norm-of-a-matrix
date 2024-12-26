@@ -26,11 +26,10 @@ Program-3
 ```
 
 ## Program:
-```Python
+## 1-Norm matrix
+```
 # Register No: 24006285
 # Developed By: PRAGATHI KUMAR
-# 1-Norm of a Matrix
-
 import numpy as np
 matrix=np.array(eval(input()))
 ans=np.linalg.norm(matrix,1)
@@ -43,8 +42,6 @@ print(norm_of_matrix)
 ## 2-Norm matrix
 ```
 import numpy as np
-
-import numpy as np
 matrix=np.array(eval(input()))
 ans=np.linalg.norm(matrix,2)
 norm_of_matrix="{:.2f}".format(ans)
@@ -53,8 +50,6 @@ print(norm_of_matrix)
 ```
 ## Infinity Norm of a matrix
 ```
-import numpy as np
-
 import numpy as np
 matrix=np.array(eval(input()))
 ans=np.linalg.norm(matrix,2)
